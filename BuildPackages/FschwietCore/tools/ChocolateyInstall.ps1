@@ -47,7 +47,6 @@ Install-ChocolateyPinnedTaskBarItem "$sublimeDir\sublime_text.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 
 Install-ChocolateyFileAssociation ".txt" "$env:programfiles\Sublime Text 2\sublime_text.exe"
-Install-ChocolateyFileAssociation ".dll" "$($Boxstarter.ChocolateyBin)\dotPeek.bat"
 
 # if(!(Test-Path("$sublimeDir\data")){mkdir "$sublimeDir\data"}
 # copy-item (Join-Path (Get-PackageRoot($MyInvocation)) 'sublime\*') -Force -Recurse "$sublimeDir\data"

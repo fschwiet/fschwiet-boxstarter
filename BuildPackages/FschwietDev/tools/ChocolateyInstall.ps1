@@ -5,12 +5,14 @@ if((Get-Item "$($Boxstarter.programFiles86)\Microsoft Visual Studio 11.0\Common7
 }
 
 cinstm mssqlserver2012express
-cinstm resharper
 cinstm virtualclonedrive
 
 cinstm AllBrowsers
 
 cinstm Skype
+
+cinstm resharper
+Install-ChocolateyFileAssociation ".dll" "$($Boxstarter.ChocolateyBin)\dotPeek.bat"
 
 try {
 

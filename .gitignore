@@ -5,3 +5,4 @@ Boxstarter.WinConfig
 BoxStarter.bat
 boxstarter.config
 LICENSE.txt
+BuildPackages/*.nupkg

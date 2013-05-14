@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>FschwietDev</id>
+    <version>1.0.0</version>
+    <authors>Frank Schwieterman</authors>
+    <owners>Frank Schwieterman</owners>
+    <description>Extends FschwietCore for my dev workstation</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

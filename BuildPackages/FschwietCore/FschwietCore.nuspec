@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>FschwietCore</id>
+    <version>1.0.1</version>
+    <authors>Frank Schwieterman</authors>
+    <owners>Frank Schwieterman</owners>
+    <description>Core components to include on servers and workstations.</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

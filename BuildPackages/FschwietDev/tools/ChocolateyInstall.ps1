@@ -14,6 +14,8 @@ cinstm Skype
 cinstm resharper
 Install-ChocolateyFileAssociation ".dll" "$($Boxstarter.ChocolateyBin)\dotPeek.bat"
 
+cinstm gimp
+
 try {
 
     Write-ChocolateySuccess 'FschwietDev'

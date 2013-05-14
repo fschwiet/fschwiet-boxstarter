@@ -16,16 +16,17 @@ cinstm sysinternals
 cinstm NugetPackageExplorer
 cinstm windbg
 
+cinst git
+cinstm git-credential-winstore
+cinstm poshgit
+
 cinstm curl
 cinstm putty
 cinstm VirtualBox
 cinstm WinMerge
-
-# cinstm git-credential-winstore
-# cinstm poshgit
-# cinst msysgit  # to set path... le sigh
-# cinst githubforwindows
-
+cinstm 7zip
+cinst sumatrapdf
+cinst putty
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures

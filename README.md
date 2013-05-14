@@ -11,5 +11,6 @@ I recommend trying this on a clean VM first:
 * Run: \\%computername%\Boxstarter\Boxstarter FschwietCore
 * (for dev machines) Run: Invoke-BoxstarterBuild FschwietDev
 * (for dev machines) Run: \\%computername%\Boxstarter\Boxstarter FschwietDev
+* maybe you want to .\swapCapsLockAndLWin.bat
 
 

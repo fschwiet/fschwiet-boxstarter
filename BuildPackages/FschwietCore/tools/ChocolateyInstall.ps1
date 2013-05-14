@@ -45,7 +45,6 @@ Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
 Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
 Install-ChocolateyPinnedTaskBarItem "$sublimeDir\sublime_text.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
 
 Install-ChocolateyFileAssociation ".txt" "$env:programfiles\Sublime Text 2\sublime_text.exe"
 Install-ChocolateyFileAssociation ".dll" "$($Boxstarter.ChocolateyBin)\dotPeek.bat"

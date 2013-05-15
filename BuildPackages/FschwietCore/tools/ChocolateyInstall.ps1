@@ -6,7 +6,6 @@ Enable-RemoteDesktop
 
 cinstm fiddler
 cinst keepass
-cinst dropbox
 cinstm console-devel
 cinstm sublimetext2
 cinstm googlechrome
@@ -15,6 +14,7 @@ cinstm windirstat
 cinstm sysinternals
 cinstm NugetPackageExplorer
 cinstm windbg
+cinstm virtualclonedrive
 
 cinst git
 cinstm git-credential-winstore

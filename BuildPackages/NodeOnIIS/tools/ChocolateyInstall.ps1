@@ -8,6 +8,8 @@ try {
     cinst IIS-ASPNET -source windowsfeatures
     cinst IIS-ASPNET45 -source windowsfeatures
 
+    cinst nodist -Pre
+
     Install-ChocolateyPackage 'IIS Node' 'msi' '/passive /norestart' 'http://go.microsoft.com/?linkid=9784330' 'http://go.microsoft.com/?linkid=9784331'
     cinstm UrlRewrite
 

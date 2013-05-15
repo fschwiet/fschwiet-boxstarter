@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>NodeOnIIS</id>
+    <version>1.0.0</version>
+    <authors>Frank Schwieterman</authors>
+    <owners>Frank Schwieterman</owners>
+    <description>How do I shot node.js</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

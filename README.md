@@ -3,10 +3,10 @@ Here are my Boxstarter modules [https://boxstarter.codeplex.com/] for repaving W
 
 I recommend trying this on a clean VM first:
 
-* Download & install boxstarter https://boxstarter.codeplex.com/
-    * Before uninstalling the zip, unblock it by right-clicking, properties, click "unblock" then "ok"
-* Verify the files are at c:\user\%username%\roaming\Boxstarter
-* Extract the zip contents of https://github.com/fschwiet/fschwiet-boxstarter/archive/master.zip to the same directory, overwriting the directory BuildPackages.
+* Install chocolatey (http://chocolatey.org/)
+* Install Boxstarter with chocolatey by running cinst boxstarter
+* Put the contents https://github.com/fschwiet/fschwiet-boxstarter at c:\users\<Username>\AppData\Roaming\Boxstarter, overwriting on collision.
+    * I use git clone to another directory, then copy everything that was cloned over.
 * (may not be necessary...) Run: Set-BoxstarterShare to start hosting packages
 
 * To install core components (18 gigs for Windows 8 pro as of commit 2a6cf09c6fbb6af7f)

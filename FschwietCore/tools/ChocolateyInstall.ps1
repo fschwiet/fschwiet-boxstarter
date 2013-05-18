@@ -12,11 +12,12 @@ try {
     cinstm sublimetext2
     cinstm googlechrome
     cinstm windirstat
-    # can we add HW Monitor?  / http://www.cpuid.com/downloads/hwmonitor/1.22-setup.exe
     cinstm sysinternals
     cinstm NugetPackageExplorer
     cinstm windbg
     cinstm virtualclonedrive
+
+    Install-ChocolateyPackage 'HW Monitor' 'exe' '/silent' 'ftp://ftp.cpuid.com/hwmonitor/hwmonitor_1.22-setup.exe'
 
     cinst git
     cinstm git-credential-winstore

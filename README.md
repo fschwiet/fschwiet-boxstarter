@@ -9,8 +9,11 @@ To run the packages:
 * Install Boxstarter with Chocolatey
     * chocolatey install boxstarter
     * chocolatey install git
-    * cd c:\users\\*username*\AppData\Roaming\BoxStarter\BuildPackages
-    * git clone https://github.com/fschwiet/fschwiet-boxstarter
+    * cd c:\users\\*username*\AppData\Roaming\BoxStarter
+    * git clone "https://github.com/fschwiet/fschwiet-boxstarter" BuildPackages
+
+* You'll need to enable scripting from an administrative powershell console:
+    * Set-ExecutionPolicy Unrestricted
 
 * To run a package:
     * Import-Module Boxstarter.Chocolatey

@@ -15,7 +15,7 @@ To run the packages:
 * You'll need to enable scripting from an administrative powershell console:
     * Set-ExecutionPolicy Unrestricted
 
-* To run a package:
+* To run a package (use powershell):
     * Invoke-BoxstarterBuild <packageName>
     * Boxstarter <packageName>
 

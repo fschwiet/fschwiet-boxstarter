@@ -16,8 +16,8 @@ To run the packages:
     * Set-ExecutionPolicy Unrestricted
 
 * To run a package (use powershell):
-    * Invoke-BoxstarterBuild <packageName>
-    * Boxstarter <packageName>
+    * Invoke-BoxstarterBuild <<packageName>>
+    * Boxstarter <<packageName>>
 
 * Packages available:
     * FschwietCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)

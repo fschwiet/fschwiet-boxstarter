@@ -1,25 +1,27 @@
 
-Here are my Boxstarter modules [https://boxstarter.codeplex.com/] for repaving Windows machines.
+Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey to make setting up new Windows machines simpler.
 
-I recommend trying this on a clean VM first:
+Basically, custom modules are developed and kept in source control.  To run them from a machine, that source code repository is placed in boxstarter's working directory.
 
-* Install chocolatey (http://chocolatey.org/)
-* Install Boxstarter with chocolatey by running cinst boxstarter
-* Put the contents https://github.com/fschwiet/fschwiet-boxstarter at c:\users\<Username>\AppData\Roaming\Boxstarter, overwriting on collision.
-    * I use git clone to another directory, then copy everything that was cloned over.
-* (may not be necessary...) Run: Set-BoxstarterShare to start hosting packages
+To run the packages:
 
-* To install core components (18 gigs for Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
+* Install Chocolatey (http://chocolatey.org/)
+* Install Boxstarter with Chocolatey
+    * chocolatey install boxstarter
+    * cd c:\user\<username>AppData\Roaming\BoxStarter\BuildPackages
+    * git clone https://github.com/fschwiet/fschwiet-boxstarter
+
+* To run a package:
     * Import-Module Boxstarter.Chocolatey
-    * Invoke-BoxstarterBuild FschwietCore
-    * Boxstarter FschwietCore
+    * Invoke-BoxstarterBuild <packageName>
+    * Boxstarter <packageName>
 
-* After that much finishes, for dev machines you may want to run (30 gigs for Windows 8 pro as of commit 2a6cf09c6fbb6af7f):
-    * Import-Module Boxstarter.Chocolatey
-    * Invoke-BoxstarterBuild FschwietDev
-    * Boxstarter FschwietDev
+* Packages available:
+    * FschwietCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
+    * FschwietDev  (size(fschwietCore) + 12gigs as of commit 2a6cf09c6fbb6af7f):
+    * NodeOnIIS
     
-* maybe you want to run:
+* Random config script I like I haven't found a package for:
     * .\swapCapsLockAndLWin.bat
 
 

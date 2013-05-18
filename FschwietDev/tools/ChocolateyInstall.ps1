@@ -11,7 +11,7 @@ try {
     cinstm Resharper
 
     cinstm AllBrowsers
-    cinst Dropbox
+    cinstm Dropbox
     cinstm Skype
     cinstm Gimp
 

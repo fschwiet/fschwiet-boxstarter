@@ -1,5 +1,5 @@
 
-Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey to make setting up new Windows machines simpler.
+Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey to make setting up new Windows machines repeatable and reliable.
 
 Basically, custom modules are developed and kept in source control.  To run them from a machine, that source code repository is placed in boxstarter's working directory.  Its straightforward to read what a package does, or copy a package to create a new one.  Its a good idea to test things on a VM first.
 

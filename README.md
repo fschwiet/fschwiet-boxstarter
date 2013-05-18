@@ -21,7 +21,7 @@ To run the packages:
     * Invoke-BoxstarterBuild *packageName*
     * Boxstarter *packageName*
 
-* Packages available:
+* Packages available in this codebase (you'll probably want to write your own, use these for review):
     * FschwietCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
     * FschwietDev  (size(fschwietCore) + 12gigs as of commit 2a6cf09c6fbb6af7f):
     * NodeOnIIS (installs node.js, version managed by nodeinst with IIS dependencies installed)

@@ -7,7 +7,7 @@ try {
     Enable-RemoteDesktop
 
     cinstm fiddler
-    cinst keepass
+    cinstm keepass
     cinstm console-devel
     cinstm sublimetext2
     cinstm googlechrome
@@ -19,7 +19,7 @@ try {
 
     Install-ChocolateyPackage 'HW Monitor' 'exe' '/silent' 'ftp://ftp.cpuid.com/hwmonitor/hwmonitor_1.22-setup.exe'
 
-    cinst git
+    cinstm git
     cinstm git-credential-winstore
     cinstm poshgit
 
@@ -28,8 +28,8 @@ try {
     cinstm VirtualBox
     cinstm WinMerge
     cinstm 7zip
-    cinst sumatrapdf
-    cinst putty
+    cinstm sumatrapdf
+    cinstm putty
 
     cinst IIS-WebServerRole -source windowsfeatures
     cinst IIS-HttpCompressionDynamic -source windowsfeatures

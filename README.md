@@ -9,6 +9,7 @@ To run the packages:
 * Install Boxstarter with Chocolatey
     * chocolatey install boxstarter
     * cd c:\user\<username>AppData\Roaming\BoxStarter\BuildPackages
+    * chocolatey install git
     * git clone https://github.com/fschwiet/fschwiet-boxstarter
 
 * To run a package:

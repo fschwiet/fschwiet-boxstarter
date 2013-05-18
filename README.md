@@ -16,7 +16,6 @@ To run the packages:
     * Set-ExecutionPolicy Unrestricted
 
 * To run a package:
-    * Import-Module Boxstarter.Chocolatey
     * Invoke-BoxstarterBuild <packageName>
     * Boxstarter <packageName>
 

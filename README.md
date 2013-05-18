@@ -3,6 +3,8 @@ Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey 
 
 Basically, custom modules are developed and kept in source control.  To run them from a machine, that source code repository is placed in boxstarter's working directory.  Its straightforward to read what a package does, or copy a package to create a new one.  Its a good idea to test things on a VM first.
 
+The easiest way to extend a package is to add dependencies that are in the chocolatey gallery [http://chocolatey.org/].  The are additional commands available from both chocolatey and boxstarter (https://github.com/chocolatey/chocolatey/wiki/CommandsReference and http://boxstarter.codeplex.com/documentation)
+
 To run the packages:
 
 * Install Chocolatey (http://chocolatey.org/)

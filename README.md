@@ -1,7 +1,7 @@
 
 Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey to make setting up new Windows machines simpler.
 
-Basically, custom modules are developed and kept in source control.  To run them from a machine, that source code repository is placed in boxstarter's working directory.
+Basically, custom modules are developed and kept in source control.  To run them from a machine, that source code repository is placed in boxstarter's working directory.  Its straightforward to read what a package does, or copy a package to create a new one.  Its a good idea to test things on a VM first.
 
 To run the packages:
 
@@ -23,7 +23,7 @@ To run the packages:
 * Packages available:
     * FschwietCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
     * FschwietDev  (size(fschwietCore) + 12gigs as of commit 2a6cf09c6fbb6af7f):
-    * NodeOnIIS
+    * NodeOnIIS (installs node.js, version managed by nodeinst with IIS dependencies installed)
     
 * Random config script I like I haven't found a package for:
     * .\swapCapsLockAndLWin.bat

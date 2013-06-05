@@ -11,6 +11,8 @@ try {
     cinstm nodist -Pre
     cinstm UrlRewrite
 
+    cinst phantomjs -version 1.9.0
+
     Install-ChocolateyPackage 'IIS Node' 'msi' '/passive /norestart' 'http://go.microsoft.com/?linkid=9784330' 'http://go.microsoft.com/?linkid=9784331'
 
     Write-ChocolateySuccess 'NodeOnIIS'

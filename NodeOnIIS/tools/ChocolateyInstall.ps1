@@ -16,10 +16,23 @@ try {
     Install-ChocolateyPackage 'IIS Node' 'msi' '/passive /norestart' 'http://go.microsoft.com/?linkid=9784330' 'http://go.microsoft.com/?linkid=9784331'
 
     ## http://get-carbon.org/
-    $tempDir = join-path $env:TEMP "CarbonZip"
-    Install-ChocolateyZipPackage "Carbon" "http://bitbucket.org/splatteredbits/carbon/downloads/Carbon-1.1.0.zip"  $tempDir
-    mv $tempDir\Carbon "$($pshome)\modules"
-    rmdir -recurse $tempDir
+    $unzipPath = join-path $(Split-Path -parent $MyInvocation.MyCommand.Definition) "Carbon"
+    Install-ChocolateyZipPackage "Carbon" "http://bitbucket.org/splatteredbits/carbon/downloads/Carbon-1.1.0.zip" $unzipPath
+
+    function PersistCarbonPathToEnvironmentVariable($variableName){
+        $value = [Environment]::GetEnvironmentVariable($variableName, 'Machine')
+        if($value){
+            $values=($value -split ';' | ?{ !($_.ToLower() -match "\\carbon$")}) -join ';'
+            $values+=";$unzipPath"
+        } else {
+            $values=$unzipPath
+        }
+
+        $values = $values.Replace(';;',';')
+        [Environment]::SetEnvironmentVariable($variableName, $values, 'Machine')
+    }
+
+    PersistCarbonPathToEnvironmentVariable "PSModulePath"
 
     Write-ChocolateySuccess 'NodeOnIIS'
 } catch {

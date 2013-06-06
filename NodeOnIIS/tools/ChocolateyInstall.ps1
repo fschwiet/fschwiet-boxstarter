@@ -35,6 +35,10 @@ try {
     PersistCarbonPathToEnvironmentVariable "PSModulePath"
 
     Write-ChocolateySuccess 'NodeOnIIS'
+
+    #  Ensure IIS has the latest environment variable changes
+    iisreset
+
 } catch {
   Write-ChocolateyFailure 'NodeOnIIS' $($_.Exception.Message)
   throw

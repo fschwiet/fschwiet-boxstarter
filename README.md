@@ -7,17 +7,18 @@ The easiest way to extend a package is to add dependencies that are in the choco
 
 To run the packages:
 
+* Install .NET 4.0 (you can check if its installed by looking C:\Windows\Microsoft.NET\Framework)
 * Install Chocolatey (http://chocolatey.org/)
-* Install Boxstarter with Chocolatey
-    * chocolatey install boxstarter
-    * chocolatey install git
-    * cd c:\users\\*username*\AppData\Roaming\BoxStarter
-    * git clone "https://github.com/fschwiet/fschwiet-boxstarter" BuildPackages
+* Run: chocolatey install boxstarter
+* Run: chocolatey install git
+* cd c:\users\\*username*\AppData\Roaming\BoxStarter
+* git clone "https://github.com/fschwiet/fschwiet-boxstarter" BuildPackages
 
 * You'll need to enable scripting from an administrative powershell console:
     * Set-ExecutionPolicy Unrestricted
 
 * To run a package (use powershell):
+    * Import-Module $env:appdata\boxstarter\Boxstarter.Chocolatey\Boxstarter.Chocolatey.psd1
     * Invoke-BoxstarterBuild *packageName*
     * Boxstarter *packageName*
 

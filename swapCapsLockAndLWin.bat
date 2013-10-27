@@ -1,1 +1,1 @@
-regedit /s .\fschwiet\swapCapsLockAndLWin.reg
+regedit /s .\swapCapsLockAndLWin.reg

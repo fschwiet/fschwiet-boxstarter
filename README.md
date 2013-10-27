@@ -3,8 +3,8 @@ This project contains the boxstarter packages I use for machine initialization. 
 
 To run one of these the packages, open http://boxstarter.org/package/<packageName> from internet explorer.
 
-* Packages available in this codebase (you'll probably want to write your own, use these for review):
-    * FschwietBoxstarterCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
+* Packages originating from this codebase:
+    * FschwietCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
     * FschwietDev  (size(fschwietCore) + 12gigs as of commit 2a6cf09c6fbb6af7f):
     * FschwietNodeOnIIS (installs node.js, version managed by nodeinst with IIS dependencies installed)
     

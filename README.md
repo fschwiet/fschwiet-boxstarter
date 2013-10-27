@@ -6,7 +6,7 @@ To run one of these the packages, open http://boxstarter.org/package/<packageNam
 * Packages available in this codebase (you'll probably want to write your own, use these for review):
     * FschwietBoxstarterCore (18 gigs on Windows 8 pro as of commit 2a6cf09c6fbb6af7f)
     * FschwietDev  (size(fschwietCore) + 12gigs as of commit 2a6cf09c6fbb6af7f):
-    * NodeOnIIS (installs node.js, version managed by nodeinst with IIS dependencies installed)
+    * FschwietNodeOnIIS (installs node.js, version managed by nodeinst with IIS dependencies installed)
     
 * Random config script I like I haven't found a package for:
     * .\swapCapsLockAndLWin.bat

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>NodeOnIIS</id>
-    <version>0.0.1</version>
+    <id>FschwietNodeOnIIS</id>
+    <version>1.0.0</version>
     <projectUrl>http://github.com/fschwiet/fschwiet-boxstarter</projectUrl>
     <authors>Frank Schwieterman</authors>
     <owners>Frank Schwieterman</owners>

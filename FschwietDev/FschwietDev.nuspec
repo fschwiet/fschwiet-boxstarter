@@ -3,6 +3,7 @@
   <metadata>
     <id>FschwietDev</id>
     <version>1.0.0</version>
+    <projectUrl>http://github.com/fschwiet/fschwiet-boxstarter</projectUrl>
     <authors>Frank Schwieterman</authors>
     <owners>Frank Schwieterman</owners>
     <description>Extends FschwietCore for my dev workstation</description>

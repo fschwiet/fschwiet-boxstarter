@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>FschwietBoxstarterCore</id>
+    <id>FschwietCore</id>
     <version>1.0.3</version>
     <projectUrl>http://github.com/fschwiet/fschwiet-boxstarter</projectUrl>
     <authors>Frank Schwieterman</authors>

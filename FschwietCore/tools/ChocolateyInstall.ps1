@@ -1,13 +1,14 @@
 try {
 
+    Update-ExecutionPolicy RemoteSigned
     Install-WindowsUpdate -AcceptEula
-    Update-ExecutionPolicy Unrestricted
     Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
     Set-TaskbarSmall
     Enable-RemoteDesktop
 
+    cinstm nuget.commandline
     cinstm fiddler
-    cinstm keepass
+    cinstm keepassx
     cinstm console-devel
     cinstm sublimetext2
     cinstm googlechrome
@@ -17,7 +18,7 @@ try {
     cinstm windbg
     cinstm virtualclonedrive
 
-    Install-ChocolateyPackage 'HW Monitor' 'exe' '/silent' 'ftp://ftp.cpuid.com/hwmonitor/hwmonitor_1.22-setup.exe'
+    #Install-ChocolateyPackage 'HW Monitor' 'exe' '/silent' 'ftp://ftp.cpuid.com/hwmonitor/hwmonitor_1.22-64bit.exe'
 
     cinstm git
     cinstm git-credential-winstore
@@ -40,12 +41,11 @@ try {
     cinst IIS-ASPNET45 -source windowsfeatures
     cinst IIS-ManagementConsole -source windowsfeatures
 
-    cinst aspnetmvc -version 2.0
-    cinst aspnetmvc -version 3.0
+    #cinst aspnetmvc -version 2.0
+    #cinst aspnetmvc -version 3.0
 
     $sublimeDir = "$env:programfiles\Sublime Text 2"
 
-    Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
     Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
     Install-ChocolateyPinnedTaskBarItem "$sublimeDir\sublime_text.exe"
     Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"

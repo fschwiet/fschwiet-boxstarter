@@ -3,9 +3,10 @@
   <metadata>
     <id>NodeOnIIS</id>
     <version>0.0.1</version>
+    <projectUrl>http://github.com/fschwiet/fschwiet-boxstarter</projectUrl>
     <authors>Frank Schwieterman</authors>
     <owners>Frank Schwieterman</owners>
-    <description>How do I shot node.js</description>
+    <description>Installs the dependencies I use for node.js</description>
     <tags>Boxstarter</tags>
   </metadata>
 </package>

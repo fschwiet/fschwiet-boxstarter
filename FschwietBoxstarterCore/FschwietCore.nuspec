@@ -2,7 +2,8 @@
 <package>
   <metadata>
     <id>FschwietBoxstarterCore</id>
-    <version>1.0.1-beta</version>
+    <version>1.0.3</version>
+    <projectUrl>http://github.com/fschwiet/fschwiet-boxstarter</projectUrl>
     <authors>Frank Schwieterman</authors>
     <owners>Frank Schwieterman</owners>
     <description>Chocolatey packages to install core components to include on servers and workstations.</description>

@@ -1,4 +1,8 @@
 
+UPDATE:  This repository is now obsolete.  If you are interested in getting started with Boxstarter, go to http://boxstarter.org.
+
+OBSOLETE:
+
 This project contains the boxstarter packages I use for machine initialization.  Boxstarter [https://boxstarter.codeplex.com/] is a tool that extends Chocolatey to make setting up new Windows machines repeatable and reliable.
 
 To run one of these the packages, open http://boxstarter.org/package/<packageName> from internet explorer.
